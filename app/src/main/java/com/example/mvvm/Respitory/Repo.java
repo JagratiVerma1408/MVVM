@@ -29,6 +29,7 @@ public class Repo {
         if (instance==null)
         {
             instance=new Repo();
+            //instance
         }
 
       return instance;
@@ -54,6 +55,7 @@ public class Repo {
                 }
             }
                 Log.d("jag", String.valueOf(arrayList));
+                Log.d("jag", String.valueOf(arrayList));
 
                 }
 
@@ -71,6 +73,7 @@ public class Repo {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Log.e(TAG,"onFailure : " + e );
+                ///////
             }
         });
     }
